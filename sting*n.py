@@ -1,2 +1,4 @@
-kk=int(input())
-print('hello\n'*kk)
+kk=str(input())
+n=int(input())
+for i in range(0,n):
+    print(kk)
