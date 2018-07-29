@@ -1,7 +1,7 @@
-a,b=input().split()
-a=int(a)
+aa,b=input().split()
+aa=int(aa)
 b=int(b)
-a=a^b
-b=a^b
-a=a^b
+aa=aa^b
+b=aa^b
+a=aa^b
 print(a,b)
