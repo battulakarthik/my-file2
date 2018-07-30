@@ -1,6 +1,6 @@
 nm=int(input())
 a = [int(x) for x in input().split()]
-
+count=0
 for i in range(0,nm):
     for j in range(i+1,nm):
         if a[i]==a[j]:
