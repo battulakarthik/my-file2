@@ -9,6 +9,6 @@ for i in range(0,k):
         if b[i]==a[j]:
             count+=1
 if(count==len(b)):
-    print("yes")
-else:print("no")
+    print("YES")
+else:print("NO")
 
