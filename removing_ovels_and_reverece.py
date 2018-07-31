@@ -7,7 +7,4 @@ for i in range(0,d):
     else:k.append(nm[i])
 k.reverse()
 for i in range(0,len(k)):
-    if i<len(k)-1:
-        m=' '
-    else:m=''
-    print(k[i],end=m)
+    print(k[i])
