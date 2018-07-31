@@ -4,10 +4,11 @@ k=int(k)
 a=[int(x) for x in input().split()]
 i=0
 while i<k:
-     if k>nm:
+     if i+1<nm:
+         a[i],a[i+1]=a[i+1],a[i]
+         i+=1
+     else:
          break
-     a[i],a[i+1]=a[i+1],a[i]
-     i+=1
 
 for i in range(0,nm):
     if i<nm-1:
