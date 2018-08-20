@@ -5,5 +5,5 @@ for i in range(0,n):
     if m==lst[i]:
         c=1
 if c==1:
-    print("yes")
-else:print("no")
+    print("Yes")
+else:print("No")
