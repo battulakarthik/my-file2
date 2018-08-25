@@ -1,5 +1,6 @@
 n,m=map(int,input().split())
 lst=[int(x) for x in input().split()]
+tm=0
 for i in range(0,n):
     c=1
     for j in range(i+1,n):
