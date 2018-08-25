@@ -1,5 +1,5 @@
 n=int(input())
-m=input()
+m=input().split()
 c=[]
 for i in range(n-1,-1,-1):
     if m[i]=='0':
