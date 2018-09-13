@@ -25,4 +25,4 @@ for i in range(0,n):
             k=' '
         else:k=''
         print(mx[i][j],end=k)
-    print()
+    print('\n')
